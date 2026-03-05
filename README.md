@@ -15,7 +15,7 @@
  <a href="#modeling">Modelagem</a> •
  <a href="#metrics">Métricas</a> • 
  <a href="#results">Resultados</a> •
- <a href="insights">Principais Insights</a> • 
+ <a href="#insights">Principais Insights</a> • 
  <a href="#techs">Tecnologias</a> • 
  <a href="#structure">Estrutura</a> • 
  <a href="#execute">Como Executar</a> • 
