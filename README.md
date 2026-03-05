@@ -26,7 +26,9 @@
 
 <h2 id="objective"> 🤖 Objetivo</h2>
 
-Este projeto aplica modelos de Machine Learning para prever a rotatividade de clientes (Churn) em uma base de telecomunicações, com um foco analítico especial no comportamento do segmento **Senior Citizen**.
+Desenvolver e comparar modelos de **Machine Learning** capazes de prever a probabilidade de churn de clientes da TelecomX, com foco especial na performance do modelo sobre o segmento **sênior**.
+
+O objetivo central não é apenas maximizar acurácia, mas identificar corretamente clientes com alta propensão de cancelamento (foco em **Recall**), permitindo ações preventivas direcionadas.
 
 ---
 
@@ -40,7 +42,7 @@ Este projeto aplica modelos de Machine Learning para prever a rotatividade de cl
 4. Padronização 
 5. Separação treino/teste  
 6. Treinamento de modelos
-7. AValiação e comparação de métricas
+7. Avaliação e comparação de métricas
 8. Escolha do(s) modelos 
 
 ### 🔹 Modelos Testados
@@ -87,7 +89,8 @@ Análise específica focada no comportamento e propensão de churn para clientes
 
 - O segmento sênior responde por 25,4% de todo o churn da operação (476 de 1.869 casos totais).
 - A proporção de churn no grupo sênior é aproximadamente igual à da base geral, indicando que a idade não é o motivador principal, mas sim um subconjunto considerável.
-- Em ambas análises,tanto no sentido geral da avaliação do churn como também do subconjunto selecionado de pessoas senior,o modelo que obteve mais destaque,levando em consideração o foco no **Recall** e uma média considerável nas demias métricas,foi o da árvore de decisão.
+- Em ambas análises,tanto no sentido geral da avaliação do churn como também do subconjunto selecionado de pessoas senior,o modelo que obteve mais destaque,levando em consideração o foco no **Recall** e uma média considerável nas demais métricas,foi o da árvore de decisão.
+- Vale destacar que variáveis como tempo e tipo de contrato,além de serviços que aseguram segurança digital estão relacionados ao fator das pessoas cancelarem.
 
 <h2 id="techs"> 🛠️ Tecnologias Utilizadas</h2>
 
@@ -103,7 +106,7 @@ Análise específica focada no comportamento e propensão de churn para clientes
 <h2 id="structure"> 🧩 Estrutura do Projeto</h2>
 
 ```
-TelecomX_BR_parte2_Predicition
+TelecomX_BR_parte2_Prediction
   ├── TelecomX_BR_parte2.ipynb       # Notebook principal com toda a análise
   ├── data-base/              # Database fonte
   ├── images/                 # Principais Gráficos exportados
@@ -121,13 +124,7 @@ TelecomX_BR_parte2_Predicition
 git clone https://github.com/MiguelLuan/TelecomX_BR_parte2_Prediction.git
 ```
 
-2. Acesse a pasta do projeto:
-
-```bash
-cd TelecomX_BR
-```
-
-3. Execute o notebook:
+2. Execute o notebook:
 
 ```bash
 jupyter notebook TelecomX_BR.ipynb
