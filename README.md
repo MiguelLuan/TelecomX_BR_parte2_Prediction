@@ -26,7 +26,7 @@
 
 <h2 id="objective"> 🤖 Objetivo</h2>
 
-Desenvolver e comparar modelos de **Machine Learning** capazes de prever a probabilidade de churn de clientes da TelecomX, com foco especial na performance do modelo sobre o segmento **sênior**.
+Dando continuidade à <a href="https://github.com/MiguelLuan/TelecomX_BR" >Parte 1</a>, na qual foi realizada a análise exploratória dos dados (EDA), esta etapa tem como objetivo desenvolver e comparar modelos de **Machine Learning** capazes de prever a probabilidade de churn de clientes da TelecomX, com foco especial na performance do modelo sobre o segmento **sênior**,assim,prosseguindo a parte 1 
 
 O objetivo central não é apenas maximizar acurácia, mas identificar corretamente clientes com alta propensão de cancelamento (foco em **Recall**), permitindo ações preventivas direcionadas.
 
