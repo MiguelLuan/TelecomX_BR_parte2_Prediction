@@ -88,18 +88,19 @@ Análise específica focada no comportamento e propensão de churn para clientes
 <h2 id="insights">📊 Principais Insights</h2>
 
 - O segmento sênior responde por 25,4% de todo o churn da operação (476 de 1.869 casos totais).
-- A proporção de churn no grupo sênior é aproximadamente igual à da base geral, indicando que a idade não é o motivador principal, mas sim um subconjunto considerável.
-- Em ambas análises,tanto no sentido geral da avaliação do churn como também do subconjunto selecionado de pessoas senior,o modelo que obteve mais destaque,levando em consideração o foco no **Recall** e uma média considerável nas demais métricas,foi o da árvore de decisão.
+- Em ambas análises,tanto no sentido geral da avaliação do churn como também do subconjunto selecionado de pessoas senior,o modelo que obteve mais destaque,levando em consideração o foco no **Recall** e uma média considerável nas demais métricas,foi o da **árvore de decisão**.
 - Vale destacar que variáveis como tempo e tipo de contrato,além de serviços que asseguram segurança digital estão relacionados ao fato das pessoas cancelarem.
 
 <h2 id="techs"> 🛠️ Tecnologias Utilizadas</h2>
 
 - Python 3
-- Pandas
-- Pathlib
-- Scikit
-- Matplotlib
-- Seaborn
+- Bibliotecas:
+  - Pandas
+  - Pathlib
+  - Scikit
+  - Matplotlib
+  - Seaborn
+- Ambiente de exercução: Google Colaboratory
 
 ---
 
